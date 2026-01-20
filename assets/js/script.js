@@ -213,7 +213,7 @@ function displayProducts(list) {
       <h3>${p.name}</h3>
       <p>${p.description}</p>
       <p>${p.prices}</p>
-      <a href="https://wa.me/237 698348176?text=Bonjour,%20je%20veux%20ce%20produit">
+      <a href="https://wa.me/237 698348176?text=Bonjour,%20je%20veux%20ce%20produit: ${encodeURIComponent(p.name)}">
         Commander via WhatsApp
       </a>
     `;
