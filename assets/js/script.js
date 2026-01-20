@@ -217,7 +217,6 @@ function displayProducts(list) {
        Commander via WhatsApp
      </a>
    `;
-
     container.appendChild(div);
   });
 
