@@ -1,11 +1,11 @@
 const products = [
-  {
-    name: "Robe élégante",
-    category: "vetements",
-    description: "Robe moderne pour toutes occasions",
-    prices: "28000 Fcfa",
-    image: "https://via.placeholder.com/300",
-  },
+  // {
+  //   name: "Robe élégante",
+  //   category: "vetements",
+  //   description: "Robe moderne pour toutes occasions",
+  //   prices: "28000 Fcfa",
+  //   image: "https://via.placeholder.com/300",
+  // },
   {
     name: "Sac à main",
     category: "accessoires",
