@@ -208,15 +208,16 @@ function displayProducts(list) {
     const div = document.createElement("div");
     div.className = "product hidden";
 
-    div.innerHTML = `
-      <img src="${p.image}">
-      <h3>${p.name}</h3>
-      <p>${p.description}</p>
-      <p>${p.prices}</p>
-      <a href="https://wa.me/237 698348176?text=Bonjour,%20je%20veux%20ce%20produit: ${encodeURIComponent(p.description, p.image)}">
-        Commander via WhatsApp
-      </a>
-    `;
+   div.innerHTML = `
+     <img src="${p.image}">
+     <h3>${p.name}</h3>
+     <p>${p.description}</p>
+     <p>${p.prices}</p>
+     <a href="https://wa.me/237698348176?text=${encodeURIComponent(`Bonjour, je veux ce produit: ${p.name} - ${p.description} - ${p.image}`)}" target="_blank">
+       Commander via WhatsApp
+     </a>
+   `;
+
     container.appendChild(div);
   });
 
