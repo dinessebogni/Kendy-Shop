@@ -312,7 +312,7 @@ footer a {
 
   nav {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 2 boutons par ligne */
+    grid-template-columns: repeat(3, 1fr); /* 3 boutons par ligne */
     gap: 12px;
     padding: 20px 15px;
   }
