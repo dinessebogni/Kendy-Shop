@@ -306,18 +306,24 @@ footer a {
 }
 
 /* ===============================
-   FILTRES – MOBILE (BOUTONS PLUS GRANDS)
+   FILTRES – MOBILE (TAILLE UNIFORME GARANTIE)
 ================================ */
 @media (max-width: 768px) {
+
   nav {
-    padding: 25px 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 2 boutons par ligne */
     gap: 12px;
+    padding: 20px 15px;
   }
 
   nav button {
-    padding: 14px 22px;      /* plus grands */
-    font-size: 15px;         /* texte plus lisible */
-    border-radius: 25px;     /* plus arrondi */
-    min-width: 110px;        /* largeur confortable au doigt */
+    width: 100%;
+    min-height: 52px;        /* hauteur fixe */
+    padding: 12px 10px;
+    font-size: 15px;
+    border-radius: 30px;
+    text-align: center;
+    white-space: nowrap;    /* empêche écrasement du texte */
   }
 }
