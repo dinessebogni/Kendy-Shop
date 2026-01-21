@@ -304,3 +304,20 @@ footer a {
     margin-top: 15px;
   }
 }
+
+/* ===============================
+   FILTRES – MOBILE (BOUTONS PLUS GRANDS)
+================================ */
+@media (max-width: 768px) {
+  nav {
+    padding: 25px 15px;
+    gap: 12px;
+  }
+
+  nav button {
+    padding: 14px 22px;      /* plus grands */
+    font-size: 15px;         /* texte plus lisible */
+    border-radius: 25px;     /* plus arrondi */
+    min-width: 110px;        /* largeur confortable au doigt */
+  }
+}
